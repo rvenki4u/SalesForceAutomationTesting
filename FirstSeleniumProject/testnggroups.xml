@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <groups>
+	<run>
+		<include name="functional"></include>
+		<include name="smoke"></include>
+	</run>
+</groups>
+ <test name="test">
+    <classes>
+      <class name="seleniumbootcamp.LearnTestNGGroups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
